@@ -8,6 +8,20 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var valueLabel: UILabel!
+    
+    @IBOutlet weak var inputField: UITextField!
+    
+    @IBAction func showValue(_ sender: Any) {
+    }
+    
+    
+    
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
