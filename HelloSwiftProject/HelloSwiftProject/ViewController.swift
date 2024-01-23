@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var inputField: UITextField!
     
     @IBAction func showValue(_ sender: Any) {
+        let name = inputField.text!
+        valueLabel.text = "Hello, \(name)"
     }
     
     
